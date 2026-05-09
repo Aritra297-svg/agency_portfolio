@@ -48,7 +48,7 @@ function Portfolio() {
     <section
       id="portfolio"
       ref={sectionRef}
-      className="relative z-10 bg-background px-6 py-20 text-foreground sm:px-8"
+      className="relative z-10 scroll-mt-32 bg-background px-6 py-20 text-foreground sm:px-8"
     >
       <div className="mx-auto max-w-7xl">
         <div

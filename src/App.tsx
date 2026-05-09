@@ -19,21 +19,11 @@ const scrollToPortfolio = () => {
 function App() {
   return (
     <main className="min-h-screen overflow-x-hidden bg-background text-foreground">
-      <div className="relative min-h-screen overflow-hidden">
-        <video
-          className="absolute inset-0 z-0 h-full w-full object-cover"
-          autoPlay
-          loop
-          muted
-          playsInline
-        >
-          <source src={videoUrl} type="video/mp4" />
-        </video>
-
-        <nav className="relative z-10 mx-auto flex max-w-7xl flex-row flex-wrap items-center justify-between px-4 py-5 sm:px-8 md:flex-nowrap md:py-6">
+      <nav className="animate-header-reveal fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-background/45 backdrop-blur-md transition-all duration-300 ease-out">
+        <div className="mx-auto flex max-w-7xl flex-row flex-wrap items-center justify-between px-4 py-4 sm:px-8 md:flex-nowrap md:py-5">
           <a
             href="#"
-            className="text-2xl font-normal tracking-tight text-foreground sm:text-3xl"
+            className="text-2xl font-normal tracking-tight text-foreground transition duration-300 ease-out hover:scale-[1.02] hover:text-white sm:text-3xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
             ZEPTIK MEDIA<sup className="text-xs">&reg;</sup>
@@ -46,8 +36,8 @@ function App() {
                 href={item.href}
                 className={
                   item.label === "Home"
-                    ? "text-sm text-foreground transition-colors"
-                    : "text-sm text-muted-foreground transition-colors hover:text-foreground"
+                    ? "nav-link text-sm text-foreground"
+                    : "nav-link text-sm text-muted-foreground hover:text-foreground"
                 }
               >
                 {item.label}
@@ -55,20 +45,36 @@ function App() {
             ))}
           </div>
 
-          <Button variant="glass" size="nav" className="hidden md:inline-flex">
+          <Button
+            variant="glass"
+            size="nav"
+            className="hidden transition duration-300 ease-out hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(255,255,255,0.12)] md:inline-flex"
+          >
             Get Proposal
           </Button>
 
           <Button
             variant="glass"
             size="nav"
-            className="inline-flex px-4 py-2 text-xs md:hidden"
+            className="inline-flex px-4 py-2 text-xs transition duration-300 ease-out hover:-translate-y-0.5 md:hidden"
           >
             Quote
           </Button>
-        </nav>
+        </div>
+      </nav>
 
-        <section className="relative z-10 flex min-h-[calc(100vh-96px)] flex-col items-center justify-center px-6 py-[90px] pb-40 pt-32 text-center">
+      <div className="relative min-h-screen overflow-hidden">
+        <video
+          className="absolute inset-0 z-0 h-full w-full object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
+        >
+          <source src={videoUrl} type="video/mp4" />
+        </video>
+
+        <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-[90px] pb-40 pt-44 text-center md:pt-32">
           <h1
             className="animate-fade-rise max-w-7xl text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-foreground sm:text-7xl md:text-8xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}

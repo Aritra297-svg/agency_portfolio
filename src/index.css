@@ -45,6 +45,38 @@ a {
   text-decoration: none;
 }
 
+.nav-link {
+  position: relative;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-1px);
+}
+
+.nav-link:hover::after {
+  opacity: 0.75;
+  transform: scaleX(1);
+}
+
 .liquid-glass {
   background: rgba(255, 255, 255, 0.01);
   background-blend-mode: luminosity;
@@ -90,6 +122,17 @@ a {
   }
 }
 
+@keyframes header-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .animate-fade-rise {
   animation: fade-rise 0.8s ease-out both;
 }
@@ -100,6 +143,10 @@ a {
 
 .animate-fade-rise-delay-2 {
   animation: fade-rise 0.8s ease-out 0.4s both;
+}
+
+.animate-header-reveal {
+  animation: header-reveal 0.7s ease-out both;
 }
 
 @keyframes portfolio-heading {
