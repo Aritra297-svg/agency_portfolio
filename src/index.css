@@ -25,6 +25,7 @@
 
 html {
   background: hsl(var(--background));
+  scroll-behavior: smooth;
 }
 
 body {
@@ -99,4 +100,34 @@ a {
 
 .animate-fade-rise-delay-2 {
   animation: fade-rise 0.8s ease-out 0.4s both;
+}
+
+@keyframes portfolio-heading {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes portfolio-card {
+  from {
+    opacity: 0;
+    transform: translateY(36px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-portfolio-heading {
+  animation: portfolio-heading 0.8s ease-out both;
+}
+
+.animate-portfolio-card {
+  animation: portfolio-card 0.7s ease-out both;
 }
