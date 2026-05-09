@@ -31,7 +31,7 @@ function App() {
           className="text-2xl font-normal tracking-tight text-foreground sm:text-3xl"
           style={{ fontFamily: "'Instrument Serif', serif" }}
         >
-          ZEPTIK DIGITAL<sup className="text-xs">&reg;</sup>
+          ZEPTIK MEDIA<sup className="text-xs">&reg;</sup>
         </a>
 
         <div className="order-3 mt-5 flex w-full items-center gap-5 overflow-x-auto whitespace-nowrap pb-1 md:order-none md:mt-0 md:w-auto md:gap-7 md:overflow-visible md:pb-0">
@@ -69,7 +69,7 @@ function App() {
           style={{ fontFamily: "'Instrument Serif', serif" }}
         >
           Welcome <em className="not-italic text-muted-foreground">to</em>{" "}
-          ZEPTIKMEDIA{" "}
+          ZEPTIK MEDIA{" "}
           <em className="not-italic text-muted-foreground">
             portfolio.
           </em>
