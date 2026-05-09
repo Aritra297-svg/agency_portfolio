@@ -3,7 +3,14 @@ import { Button } from "@/components/ui/button";
 const videoUrl =
   "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4";
 
-const navItems = ["Home", "Studio", "About", "Journal", "Reach Us"];
+const navItems = [
+  "Home",
+  "Services",
+  "Portfolio",
+  "Case Studies",
+  "About",
+  "Contact",
+];
 
 function App() {
   return (
@@ -24,10 +31,10 @@ function App() {
           className="text-2xl font-normal tracking-tight text-foreground sm:text-3xl"
           style={{ fontFamily: "'Instrument Serif', serif" }}
         >
-          ZEPTIK MEDIA<sup className="text-xs">&reg;</sup>
+          ZEPTIK DIGITAL<sup className="text-xs">&reg;</sup>
         </a>
 
-        <div className="order-3 mt-5 flex w-full items-center gap-5 overflow-x-auto whitespace-nowrap pb-1 md:order-none md:mt-0 md:w-auto md:gap-8 md:overflow-visible md:pb-0">
+        <div className="order-3 mt-5 flex w-full items-center gap-5 overflow-x-auto whitespace-nowrap pb-1 md:order-none md:mt-0 md:w-auto md:gap-7 md:overflow-visible md:pb-0">
           {navItems.map((item) => (
             <a
               key={item}
@@ -44,7 +51,7 @@ function App() {
         </div>
 
         <Button variant="glass" size="nav" className="hidden md:inline-flex">
-          Begin Journey
+          Get Proposal
         </Button>
 
         <Button
@@ -52,7 +59,7 @@ function App() {
           size="nav"
           className="inline-flex px-4 py-2 text-xs md:hidden"
         >
-          Start
+          Quote
         </Button>
       </nav>
 
