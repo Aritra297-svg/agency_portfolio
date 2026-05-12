@@ -171,6 +171,10 @@ a {
   }
 }
 
+.animate-about-section {
+  animation: fade-rise 0.8s ease-out both;
+}
+
 .animate-portfolio-heading {
   animation: portfolio-heading 0.8s ease-out both;
 }

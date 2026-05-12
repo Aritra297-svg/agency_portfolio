@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import About from "@/About";
 import Portfolio from "@/Portfolio";
 
 const videoUrl =
@@ -7,8 +8,8 @@ const videoUrl =
 const navItems = [
   { label: "Home", href: "#" },
   { label: "Services", href: "#services" },
-  { label: "Portfolio", href: "#portfolio" },
   { label: "About", href: "#about" },
+  { label: "Portfolio", href: "#portfolio" },
   { label: "Blog", href: "#blog" },
   { label: "Agency Members", href: "#team" },
   { label: "Contact", href: "#contact" },
@@ -105,6 +106,7 @@ function App() {
         </section>
       </div>
 
+      <About />
       <Portfolio />
     </main>
   );
