@@ -2,3 +2,472 @@
 Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
 To eliminate this warning, add "type": "module" to C:\xampp\htdocs\web_demo1\package.json.
 (Use `node --trace-warnings ...` to show where the warning was created)
+[2m7:59:26 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (13:2)
+
+[0m [90m 11 |[31m   { label[33m:[31m [32m"About"[31m[33m,[31m href[33m:[31m [32m"#about"[31m }[33m,[31m
+ [90m 12 |[31m   {}
+[31m[1m>[22m[31m[90m 13 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 14 |[31m ][33m;[31m
+ [90m 15 |[31m
+ [90m 16 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:13:2
+[33m  11 |    { label: "About", href: "#about" },
+  12 |    {}
+  13 |    { label: "Contact", href: "#contact" },
+     |    ^
+  14 |  ];
+  15 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
+[2m8:00:13 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (14:2)
+
+[0m [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+ [90m 13 |[31m   {}
+[31m[1m>[22m[31m[90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m
+ [90m 17 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:14:2
+[33m  12 |    { label: "Blog", href: "#blog" },
+  13 |    {}
+  14 |    { label: "Contact", href: "#contact" },
+     |    ^
+  15 |  ];
+  16 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
+[2m8:00:31 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (14:2)
+
+[0m [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+ [90m 13 |[31m   { label}
+[31m[1m>[22m[31m[90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m
+ [90m 17 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:14:2
+[33m  12 |    { label: "Blog", href: "#blog" },
+  13 |    { label}
+  14 |    { label: "Contact", href: "#contact" },
+     |    ^
+  15 |  ];
+  16 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
+[2m8:00:34 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token (13:10)
+
+[0m [90m 11 |[31m   { label[33m:[31m [32m"About"[31m[33m,[31m href[33m:[31m [32m"#about"[31m }[33m,[31m
+ [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+[31m[1m>[22m[31m[90m 13 |[31m   { label[33m:[31m}
+ [90m    |[31m           [31m[1m^[22m[31m
+ [90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:13:10
+[33m  11 |    { label: "About", href: "#about" },
+  12 |    { label: "Blog", href: "#blog" },
+  13 |    { label:}
+     |            ^
+  14 |    { label: "Contact", href: "#contact" },
+  15 |  ];[39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11459:22)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseObjectProperty (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11967:83)
+      at TypeScriptParserMixin.parseObjPropValue (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11995:100)
+      at TypeScriptParserMixin.parseObjPropValue (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9761:18)
+      at TypeScriptParserMixin.parsePropertyDefinition (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11932:17)
+      at TypeScriptParserMixin.parseObjectLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11849:21)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11356:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseExprListItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12192:18)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12167:22)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+[2m8:00:36 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (14:2)
+
+[0m [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+ [90m 13 |[31m   { label[33m:[31m [32m""[31m}
+[31m[1m>[22m[31m[90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m
+ [90m 17 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:14:2
+[33m  12 |    { label: "Blog", href: "#blog" },
+  13 |    { label: ""}
+  14 |    { label: "Contact", href: "#contact" },
+     |    ^
+  15 |  ];
+  16 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
+[2m8:00:39 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (14:2)
+
+[0m [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+ [90m 13 |[31m   { label[33m:[31m [32m"Agency"[31m}
+[31m[1m>[22m[31m[90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m
+ [90m 17 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:14:2
+[33m  12 |    { label: "Blog", href: "#blog" },
+  13 |    { label: "Agency"}
+  14 |    { label: "Contact", href: "#contact" },
+     |    ^
+  15 |  ];
+  16 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
+[2m8:00:43 pm[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\xampp\htdocs\web_demo1\src\App.tsx: Unexpected token, expected "," (14:2)
+
+[0m [90m 12 |[31m   { label[33m:[31m [32m"Blog"[31m[33m,[31m href[33m:[31m [32m"#blog"[31m }[33m,[31m
+ [90m 13 |[31m   { label[33m:[31m [32m"Agency Members"[31m}
+[31m[1m>[22m[31m[90m 14 |[31m   { label[33m:[31m [32m"Contact"[31m[33m,[31m href[33m:[31m [32m"#contact"[31m }[33m,[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 15 |[31m ][33m;[31m
+ [90m 16 |[31m
+ [90m 17 |[31m [36mconst[31m scrollToPortfolio [33m=[31m () [33m=>[31m {[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/xampp/htdocs/web_demo1/src/App.tsx[39m:14:2
+[33m  12 |    { label: "Blog", href: "#blog" },
+  13 |    { label: "Agency Members"}
+  14 |    { label: "Contact", href: "#contact" },
+     |    ^
+  15 |  ];
+  16 |  [39m
+      at constructor (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseExprList (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12158:14)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12074:26)
+      at TypeScriptParserMixin.parseArrayLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9210:24)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11352:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9803:20)
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12438:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseVar (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13401:91)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13247:10)
+      at TypeScriptParserMixin.parseVarStatement (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9425:31)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12868:23)
+      at TypeScriptParserMixin.parseStatementContent (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\xampp\htdocs\web_demo1\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:261:32)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:223:11)
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:189:28
+      at C:\xampp\htdocs\web_demo1\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:113:33
+      at step (C:\xampp\htdocs\web_demo1\node_modules\gensync\index.js:287:14)
